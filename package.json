@@ -9,12 +9,19 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@celo-tools/use-contractkit": "^3.0.1",
+    "@celo/contractkit": "^1.5.2",
+    "bignumber.js": "^9.0.2",
+    "formik": "^2.2.9",
     "next": "12.1.5",
     "react": "18.0.0",
     "react-dom": "18.0.0"
   },
   "devDependencies": {
+    "@types/node": "^17.0.24",
+    "@types/react": "^18.0.5",
     "eslint": "8.13.0",
-    "eslint-config-next": "12.1.5"
+    "eslint-config-next": "12.1.5",
+    "typescript": "^4.6.3"
   }
 }
